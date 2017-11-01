@@ -1,0 +1,149 @@
+body{
+	background: #474747;
+}
+
+.box{
+	position: relative;
+	width: 600px;
+	height: 420px;
+	background: none;
+	margin: 0 auto;
+	margin-top: 8%;
+	display: block;
+	padding-bottom: 20%;
+}
+
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(1080deg);
+	}
+}
+
+.spinner {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background: none;
+	animation: spin 3s ease-in-out infinite;
+}
+
+.center{
+	position: relative;
+	background: #00C44B;
+	width: 49%;
+	height: 70%;
+	border-radius: 50%;
+	top: 15%;
+	left: 25.5%;
+}
+
+.grip{
+	position: relative;
+	background: #00C44B;
+	width: 30%;
+	height: 30%;
+	top:35%;
+	left: 35%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #333;
+}
+
+.shaper1{
+	position: absolute;
+	background: #474747;
+	border-radius: 50%;
+	width: 30%;
+	height: 43%;
+	left: 9.2%;
+	top: 6.4%;
+}
+
+
+.shaper2{
+	position: absolute;
+	background: #474747;
+	border-radius: 50%;
+	width: 30%;
+	height: 43%;
+	left: 61.7%;
+	top: 6.8%;
+}
+
+
+.shaper3{
+	position: absolute;
+	background: #474747;
+	border-radius: 50%;
+	width: 30%;
+	height: 43%;
+	left: 34.9%;
+	top: 71%;
+}
+
+.one, .two, .three{
+	width: 25%;
+	height: 35%;
+	background: #00c44b;
+	position: relative;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.one{
+	left: 38%;
+	top: -70%;
+}
+
+.two{
+	top: -57%;
+	left: 18%;
+}
+
+.three{
+	top: -92%;
+	left: 56.5%;
+}
+
+.outer-silver{
+	position: relative;
+	background: #bbb;
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	left: 10%;
+	top: 10%;
+}
+
+.black{
+	position: relative;
+	background: #222;
+	width: 95%;
+	height: 95%;
+	border-radius: 50%;
+	left: 2.5%;
+	top: 2.5%;
+}
+
+.inner-silver{
+	position: relative;
+	background: #bbb;
+	width: 60%;
+	height: 60%;
+	border-radius: 50%;
+	left: 20%;
+	top: 20%;
+}
+
+.hole{
+	position: relative;
+	background: #474747;
+	width: 95%;
+	height: 95%;
+	border-radius: 50%;
+	top: 2.5%;
+	left: 2.5%;
+}
